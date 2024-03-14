@@ -8,6 +8,7 @@
   z-index: -1;
   object-fit: cover;
   overflow: hidden;
+  pointer-events: none; /* Ensures the video does not capture click/tap events */
 }
 
 .video-background video {
